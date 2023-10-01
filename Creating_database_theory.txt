@@ -1,0 +1,33 @@
+Datatypes:
+Boolean --> True or false
+Character -->char, varchar and text
+Numeric --> int, float
+Temporal --> date, time, timestamp and interval
+Some other not as common ones are things like UUID or universally unique identifiers, which is essentially
+an algorithmically unique code in order to make sure you have a unique identifier for a particular row.
+
+Then you also have things like arrays which store an array of strings, numbers, etc. You can also
+
+store things like JSON.
+
+There's a store which is a key value pair, and there are special types such as a network address and
+geometric data.
+
+Constraints:
+Constraints are the rules enforced on data columns on a table.
+constraints are used to prevent invalid data from being entered into the database.
+This ensures the accuracy and reliability of the data in the database.
+
+Constraints can generally be divided into two main categories:
+--There are constraints on a column which constrains the data in a single column to adhere to certain conditions.
+--And then there are table constraints which are applied to the entire table, rather to just an individual column.
+
+Common constraints:
+NOT NULL --> column has not null values.
+UNIQUE --> all values are different in column.
+PRIMARY KEY -->So the primary key uniquely identifies each row or record in a database table.
+FOREIGN KRY -->a foreign key constraintsdata based on columns and other tables. So when you're setting up a foreign key, you'll actually also set up a relationship to another table
+CHECK -->check constraint ensures that all values in a column satisfy just some certain general condition.
+EXCLUSIVE -->The exclusion constraint ensures that if any two rows are compared on the specified column or expression
+using the specified operator that you include, if the inclusion constraint that not all of these comparisons
+will return true.
